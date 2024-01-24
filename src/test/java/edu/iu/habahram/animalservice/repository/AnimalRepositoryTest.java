@@ -19,7 +19,7 @@ class AnimalRepositoryTest {
 
     @BeforeAll
     static void setup() throws IOException {
-        Files.delete(Paths.get("db.txt"));
+        Files.deleteIfExists(Paths.get("db.txt"));
     }
 
     @AfterAll

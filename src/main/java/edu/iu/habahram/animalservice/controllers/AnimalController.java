@@ -10,7 +10,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/animals")
 public class AnimalController {
-
     private AnimalRepository animalRepository;
 
     public AnimalController(AnimalRepository animalRepository) {
